@@ -22,20 +22,36 @@
          <value>%s</value>
       </parameter>
       <parameter>
-         <valueName>Magnitude</valueName>
-         <value>3.4 Ml</value>
+         <valueName>Mean Temperature</valueName>
+         <value>%f</value>
       </parameter>
       <parameter>
-         <valueName>Depth</valueName>
-         <value>11.8 mi.</value>
+         <valueName>Mean Humidity</valueName>
+         <value>%f</value>
       </parameter>
       <parameter>
-         <valueName>Quality</valueName>
-         <value>Excellent</value>
+         <valueName>Mean Pressure</valueName>
+         <value>%f</value>
       </parameter>
-      <area>
-         <areaDesc>1 mi. WSW of Brawley, CA; 11 mi. N of El Centro, CA; 30 mi. E of OCOTILLO (quarry); 1 mi. N of the Imperial Fault</areaDesc>
-         <circle>32.9525,-115.5527 0</circle>
-      </area>
+      <parameter>
+         <valueName>Mean Lux</valueName>
+         <value>%f</value>
+      </parameter>
+      <parameter>
+         <valueName>Std Temperature</valueName>
+         <value>%f</value>
+      </parameter>
+      <parameter>
+         <valueName>Std Humidity</valueName>
+         <value>%f</value>
+      </parameter>
+      <parameter>
+         <valueName>Std Pressure</valueName>
+         <value>%f</value>
+      </parameter>
+      <parameter>
+         <valueName>Std Lux</valueName>
+         <value>%f</value>
+      </parameter>
    </info>
 </alert><?xml version="1.0" encoding="UTF-8"?>
