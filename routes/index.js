@@ -7,7 +7,11 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/cap-submit', function (req, res, next) {
+router.get('/capsubmit', function (req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+router.post('/capsubmit', function (req, res) {
   console.log(req.body);
   parseString(req.body, function (err, result) {
     if (err) {

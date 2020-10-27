@@ -4,8 +4,8 @@ var bodyParser = require('body-parser')
 
 var indexRouter = require('./routes/index');
 
-const port = process.env.PORT || 3000
-const address = process.env.SERVER_ADDRESS || "127.0.0.1"
+const port = process.env.PORT || 80
+const address = process.env.SERVER_ADDRESS || "192.168.1.8"
 
 var app = express();
 
